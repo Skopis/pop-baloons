@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    margin: 10;
+    background-color: rgb(16, 130, 175);
+}
+
+img {
+    height: 100px;
+}
+
+.sky {
+    background-color:rgb(61, 178, 224);
+    padding: 180px;
+}
+
+.baloon {
+    height: 95px;
+    width: 85px;
+    border: 3px solid rgb(60, 169, 212);
+    margin: 0px;
+    border-radius: 60px 60px 50px 70px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.baloon1 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#178025; opacity :0.8;
+    left: 36%;
+    animation: bubble-anim 3s ease-in-out infinite;
+    
+}
+
+.baloon2 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#7a146d; opacity :0.8;
+    left: 76%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon3 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#2b28dd; opacity :0.8;
+    left: 26%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon4 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#dad734; opacity :0.8;
+    left: 16%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon5 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#cc1818; opacity :0.8;
+    left: 6%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon6 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#cc6119; opacity :0.8;
+    left: 56%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon7 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#198f8f; opacity :0.8;
+    left: 66%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon8 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#c533ad; opacity :0.8;
+    left: 46%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+.baloon9 {
+    background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+    background-color :#994646; opacity :0.8;
+    left: 86%;
+    animation: bubble-anim 3s ease-in-out infinite;
+}
+
+@keyframes bubble-anim {
+    0% {
+      transform: scale(1);
+    }
+    20% {
+      transform: scaleY(0.95) scaleX(1.05);
+    }
+    48% {
+      transform: scaleY(1.1) scaleX(0.9);
+    }
+    68% {
+      transform: scaleY(0.98) scaleX(1.02);
+    }
+    80% {
+      transform: scaleY(1.02) scaleX(0.98);
+    }
+    97%, 100% {
+      transform: scale(1);
+    }
+  }
